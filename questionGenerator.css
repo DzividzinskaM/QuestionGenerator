@@ -7,15 +7,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
 }
-/* 
 
-.generator__wrapper {
-    margin: 300px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-*/
 .generator__btn {
     display: flex;
     align-items: center;
@@ -24,7 +16,7 @@ body {
 }
 
 .generator__question-field {
-    color: purple;
+    color: rgb(184, 8, 184);
     margin-top: 200px;
     display: flex;
     align-items: center;
@@ -32,7 +24,7 @@ body {
     font-size: 30px;
     font-style: italic;
     font-weight: bold;
-
+    background-color: rgb(238, 198, 238);
 }
 
 .btn {
