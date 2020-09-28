@@ -6,12 +6,12 @@ const QuestionsLst = [
     },
     {
         id: 2,
-        text: 'Ваші ТОП3 софт скіли',
+        text: 'Які ваші ТОП3 soft skills',
         answer: false
     },
     {
         id: 3,
-        text: 'Ваші ТОП3 хард скіли',
+        text: 'Які ваші ТОП3 hard skills?',
         answer: false
     },
     {
@@ -21,9 +21,44 @@ const QuestionsLst = [
     },
     {
         id: 5,
-        text: 'Проект мрії?',
+        text: 'Який ваш проект мрії?',
         answer: false
-    }
+    },
+    {
+        id: 6,
+        text: 'Що найбільше цінуєте в колег по команді?',
+        answer: false
+    },
+    {
+        id: 7,
+        text: 'Якщо буде вибір працювати в чоловічій, жіночій команді, яку виберете ви?',
+        answer: false
+    },
+    {
+        id: 8,
+        text: 'Frontend чи Backend?',
+        answer: false
+    },
+    {
+        id: 9,
+        text: 'Яке ваше хобі?',
+        answer: false
+    },
+    {
+        id: 10,
+        text: 'Якщо ви будете керівником команди, яке кредо(принцип) буде в команди?',
+        answer: false
+    },
+    {
+        id: 11,
+        text: 'Яка ваша команда мрії?',
+        answer: false
+    },
+    {
+        id: 12,
+        text: 'Чи готові ви поставити цілі команди вище своїх принципів? Чи готові піти на компроміс?',
+        answer: false
+    },
 ]
 
 
@@ -43,7 +78,7 @@ const QuestionGenerator = (function(){
             return false;
 
         let min = 1;
-        let max = 5;
+        let max = 12;
 
         let rand = 0;
         let randNum = true;
