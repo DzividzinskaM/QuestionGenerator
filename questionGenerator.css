@@ -2,10 +2,12 @@
     box-sizing: border-box;
 }
 
-body {
-    background-image: url(./img/background.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+body{
+    background: url(img/background.png) no-repeat center top fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+     background-size: cover;
 }
 
 .generator__btn {
@@ -16,7 +18,7 @@ body {
 }
 
 .generator__question-field {
-    color: rgb(184, 8, 184);
+    color: purple;
     margin-top: 200px;
     display: flex;
     align-items: center;
@@ -24,7 +26,7 @@ body {
     font-size: 30px;
     font-style: italic;
     font-weight: bold;
-    background-color: rgb(238, 198, 238);
+
 }
 
 .btn {
@@ -64,4 +66,15 @@ body {
 }
 .btn:hover:after {
     left: -20%;
+}
+
+.prev-page {
+    position: absolute;
+    left: 0;
+    top: 350px;
+}
+
+.page-img {
+    height: 50px;
+    width: 50px;
 }
