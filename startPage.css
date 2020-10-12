@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    background: url(img/background.png) no-repeat center top fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+     background-size: cover;
+    overflow: hidden;
+}
+
+.text {
+    margin:0;
+    padding:20px;
+    font-family: 'Roboto Slab', serif;
+    font-size: 56px;
+}
+
+.gradient {
+	color: transparent;
+	-webkit-background-clip: text;
+	background-clip: text;
+	background-image: linear-gradient(135deg, #e437d2, #28055c);
+}
+
+.wrapper {
+    height: 100vh;
+    width: 100%;
+}
+
+.navigation {
+    position: absolute;
+    right: 0px;
+    top: 350px;
+}
+
+.next-page-img {
+    height: 50px;
+    width: 50px;
+}
